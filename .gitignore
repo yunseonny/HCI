@@ -1,0 +1,31 @@
+# Kotlin/Android Studio
+*.iml
+*.apk
+*.aab
+*.DS_Store
+
+# IDE
+.idea/
+!.idea/codeStyles/          # 코드 스타일 공유 시 유지(선택)
+!.idea/runConfigurations/   # 런/디버그 설정 공유 시 유지(선택)
+
+# Gradle
+.gradle/
+**/build/
+**/.cxx/
+.externalNativeBuild/
+.cxx/
+
+# Local machine specific
+local.properties
+
+# Keystores (절대 올리지 말 것)
+*.keystore
+*.jks
+keystore*.jks
+
+# Captures / misc
+captures/
+
+# OS
+Thumbs.db
